@@ -1,0 +1,33 @@
+<html>
+
+　<head>
+  <link rel=stylesheet type="text/css" href="signup.css">
+　<title>面白い顔本_看板標籤</title> 
+
+　</head>
+  <script src="View.js"></script>
+  
+  <div id="box" style="width:300px;height:60px;">
+  	<form>
+  	<div id="account_all"><span id="account_s">帳號：</span><input type="text" id="account_t" style="width:172px" name="Account"></div>
+  	<div id="password_all"><span id="password_s">密碼:</span><input type="password" id="password_t" style="width:172px" name="Password"></div>
+  	<div id="password_all"><span id="password_s">確認密碼:</span><input type="password" id="password_confirm_t" style="width:172px" name="Password"></div>
+  	<div id="account_all"><span id="account_s">姓名：</span><input type="text" id="name_t" style="width:172px" name="Account"></div>
+  	<div id="account_all">
+  	<span>性別 : </span>
+  		<select name="chooseboard" id = "gender_s">
+　			<option value="male">男</option>
+　			<option value="female">女</option>
+　			<option value="other">其他</option>
+　		</select>
+	</div>
+  	<div id="btn_area">
+  		<input type="button" value="確認" style="width:120px;height:40px;font-size:20px;" onclick="View1.signupconfirmclick()">
+  		<input type="button" value="取消" style="width:120px;height:40px;font-size:20px;" onclick="View1.signupcancelclick()" float:right>
+  	</div>
+  	</form>
+  </div>
+
+  
+
+</html>

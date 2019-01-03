@@ -1,0 +1,29 @@
+ <html>
+
+　<head>
+  <link rel=stylesheet type="text/css" href="writepost_stylesheet.css">
+　<title>面白い顔本</title> 
+
+　</head>
+
+  <script src="View.js"></script>
+  <form>
+  	<div id = "chooseboard">
+  		<span>請選擇看板 : </span>
+  		<select name="chooseboard" id = "chooseboard_s">
+　			<option value="board1">看板一</option>
+　			<option value="board2">看板二</option>
+　			<option value="board3">看板三</option>
+　			<option value="board4">看板四</option>
+　		</select>
+  	<div id="title"><span>標題：</span><input type="text" id="title_t" style="width:1000px" name="Title"></div>
+  	<div id="post">
+  		<textarea cols="200" rows="30" id="post_t">
+　		輸入你想要寫的內容...
+		</textarea>
+	</div>
+	<input type="button" value="發文" style="width:120px;height:40px;font-size:20px;" onclick="View1.postclick()">
+  	<input type="button" value="取消" style="width:120px;height:40px;font-size:20px;" onclick="View1.cancelclick()">
+  </form>
+
+</html>
